@@ -1,0 +1,45 @@
+magic
+tech sky130A
+timestamp 1614741686
+<< ndiff >>
+rect 620 275 635 375
+rect 1280 275 1295 375
+rect 1940 275 1955 375
+<< locali >>
+rect -40 735 -25 755
+rect 560 735 580 850
+rect 1220 735 1240 850
+rect 1880 735 1900 850
+rect 2540 735 2560 850
+rect -40 440 -25 460
+rect -40 -50 -25 -30
+<< metal1 >>
+rect -40 735 -25 825
+rect -40 280 -25 370
+use CSRL  CSRL_3
+timestamp 1614729275
+transform 1 0 2090 0 1 365
+box -150 -415 510 485
+use CSRL  CSRL_2
+timestamp 1614729275
+transform 1 0 1430 0 1 365
+box -150 -415 510 485
+use CSRL  CSRL_1
+timestamp 1614729275
+transform 1 0 770 0 1 365
+box -150 -415 510 485
+use CSRL  CSRL_0
+timestamp 1614729275
+transform 1 0 110 0 1 365
+box -150 -415 510 485
+<< labels >>
+rlabel metal1 -40 780 -40 780 7 VP
+rlabel locali -40 745 -40 745 7 D
+rlabel locali -40 450 -40 450 7 Dn
+rlabel metal1 -40 325 -40 325 7 VN
+rlabel locali -40 -40 -40 -40 7 clk
+rlabel locali 570 850 570 850 1 Q0
+rlabel locali 1230 850 1230 850 1 Q1
+rlabel locali 1890 850 1890 850 1 Q2
+rlabel locali 2550 850 2550 850 1 Q3
+<< end >>
